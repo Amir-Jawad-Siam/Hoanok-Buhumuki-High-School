@@ -1,0 +1,122 @@
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito', sans-serif;
+
+
+font-family: 'Tiro Bangla', serif;
+
+nav-bar code------->>>
+ <div class="nav-link">
+              <a href="">Home</a>
+              <a href="">About US </a>
+              <a href="">Contact Us</a>
+              <a href="">Result</a>
+          </div>
+
+<<-------------------          this code style------>
+          .nav-link{
+ 
+     margin-top: 10px;
+     height: 8vh;
+}
+
+.nav-link a{
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     margin: 20px;
+     position: relative;
+     left: 30%;
+     top: 12px;
+     font-weight: bold;
+   
+     font-family: 'Nunito', sans-serif;
+     border-radius: 10px;
+     padding: 7px;
+     background: rgba(128, 128, 128, 0.283);
+     transition: 0.2s ease;
+
+}
+
+.nav-link a:hover{
+     background: gray;
+}
+
+@media only screen and (max-width: 600px){
+     .nav-link a{
+          left: 1%;
+          font-size: 20px;
+          padding: 5px;
+          font-weight: bolder;
+          color: black;
+          margin: 5px;
+     }
+}
+
+
+
+<<<_--------------------(\_/)------------>>>>>than link code------->>>
+ <div class="link">
+               <a href="">Result</a>
+               <a href="">Registation</a>
+          </div>
+
+ <<<<----------------------------this style is-_------->>>
+               .home .link{
+     /* border: 1px solid black; */
+width: 100%;
+margin-top: 130px;
+}
+@media only screen and (max-width: 600px){
+     .home .link{
+          margin-top: 70%;
+        
+     }
+}
+.home .link a{
+     text-decoration: none;
+     color: black;
+     font-size: 22px;
+     border: 1px solid black;
+     padding: 10px;
+     font-weight: bolder;
+     margin-left: 10%;
+     position: relative;
+     border-radius: 20px;
+     font-family: 'Nunito', sans-serif;
+     background: rgba(128, 128, 128, 0.358);
+     left: 27%;
+     transition: 0.2s ease;
+     border: none;
+}
+
+.home .link a:hover{
+     background: gray;
+}
+
+@media only screen and (max-width: 600px){
+     .home .link a{
+          left: 10%;
+     }
+}
+
+
+
+
+
+
+
+
+  <a href=""><i class='bx bxl-facebook-circle'></i>Facebook</a>
+     </div>
+     <div class="social_link">
+          <a href=""><i class='bx bxl-instagram'></i>Instragrame</a>
+     </div>
+     <div class="social_link">
+          <a href="">
+               <i class='bx bxl-twitter' ></i> twitter</a>
+     </div>
+     <div class="social_link">
+          <a href=""><i class='bx bxl-youtube' ></i>Youtube</a>
+
+
+          

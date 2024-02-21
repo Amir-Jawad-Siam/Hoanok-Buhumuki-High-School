@@ -1,0 +1,1151 @@
+*{
+     margin: 0;
+     padding: 0;
+
+
+}
+
+
+body{
+     background: whitesmoke;
+     font-family: 'Tiro Bangla', serif;
+     overflow-x: hidden;
+}
+
+.home{
+     width: 98%;
+  border-radius: 20px;
+  overflow-x: hidden;
+     height: 97vh;
+     background-image: url(what/1.jpg);
+     animation: home 10s ease infinite;
+     margin-left: 10px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     margin-top: 5px;
+  box-shadow: 5px 3px 5px;
+     background-position: center;
+     overflow: hidden;
+}
+.imh{
+   
+     width: 7.5%;
+     height: 15vh;
+     position: absolute;
+     top: 1% ;
+     left: 3%;
+}
+@media only screen and (max-width: 600px){
+     .imh{
+          top: 8%;
+          left: 33%;
+          width: 27%;
+     }
+}
+.imh img{
+     width: 100%;
+     height:100%
+
+}
+@media only screen and (max-width: 600px){
+     .home{
+          width: 97%;
+          margin-left: 6px;
+     }
+}
+
+
+@keyframes home{
+     0%{
+          background-image: url(what/425531028_406575841746027_7616386895413494310_n.jpg);
+     }
+     20%{
+          background-image: url(what/425536389_406576135079331_3933664594302012318_n.jpg);
+     }
+     40%{
+          background-image: url(what/426496393_406576341745977_8064869411527237718_n.jpg);
+     }
+     60%{
+          background-image: url(what/426537635_406575625079382_2985379915588651142_n.jpg);
+     }
+     80%{
+          background-image: url(what/426723916_406575145079430_349600540230021040_n.jpg);
+     }
+     100%{
+          background-image: url(what/426851797_406574688412809_3970694437385947041_n.jpg);
+     }
+}
+
+
+
+nav{
+  
+     width: 100%;
+
+}
+
+
+nav a{
+     text-decoration: none;
+     color: black;
+     font-family: 'Nunito', sans-serif;
+     font-size: 20px;
+     margin: 30px 20px;
+     position: relative;
+     left: 18%;
+   
+     font-weight: bolder;
+ 
+     padding: 10px;
+     top: 20px;
+     border-radius: 10px;
+   
+}
+@media only screen and (max-width: 600px){
+     nav a{
+          font-size: 18px;
+          left: 10px;
+          margin: 0px;
+          padding: 8px;
+     }
+}
+
+
+nav a:hover{
+
+     background: rgba(245, 240, 240, 0.368);
+}
+
+
+
+
+
+
+
+.home h1{
+     text-align: center;
+     font-size: 50px;
+     border-bottom: 3px solid white;
+     margin-top: 70px;
+}
+
+@media only screen and (max-width: 600px){
+     .home h1{
+          font-size: 25px;
+          margin-top: 150px;
+        
+
+     }
+}
+
+
+.home h2{
+     text-align: center;
+     font-family: monospace;
+     font-size: 30px;
+}
+@media only screen and (max-width: 600px){
+     .home h2{
+          font-size: 20px;
+     }
+}
+.home .gamil{
+     text-decoration: none;
+     color: black;
+     align-items: center;
+  position: relative;
+  top: 40px;
+  margin-left: 40%;
+  
+
+}
+@media only screen and (max-width: 600px){
+     .home .gamil{
+          margin-left: 8.5%;
+          font-size: 18px;
+     }
+}
+
+.home .gamil:hover{
+     text-decoration: underline;
+     color: blue;
+}
+
+ .home .link{
+     /*  */
+width: 100%;
+margin-left: -20px;
+margin-top: 200px;
+}
+@media only screen and (max-width: 600px){
+     .home .link{
+          margin-top: 70%;
+          width: 90%;
+          margin-left: 0px;
+  
+        
+     }
+}
+.home .link a{
+     text-decoration: none;
+     color: black;
+     font-size: 22px;
+  
+     padding: 10px;
+     font-weight: bolder;
+     margin-left: 5%;
+     position: relative;
+     border-radius: 20px;
+     font-family: 'Nunito', sans-serif;
+     background: rgba(128, 128, 128, 0.358);
+     left: 27%;
+     transition: 0.2s ease;
+     border: none;
+}
+
+.home .link a:hover{
+     background: gray;
+}
+
+@media only screen and (max-width: 600px){
+     .home .link a{
+          left: 0%;
+          padding: 0px;
+          background: none;
+     }
+}
+/* lets start Second page with happiness and conpidence */
+
+
+.notice_and_More{
+  border-radius: 20px;
+     position: relative;
+     top: 100%;
+     margin-left: 10px;
+     margin-top: 5px;
+     width: 98%;
+}
+
+
+@media only screen and (max-width: 600px){
+     .notice_and_More{
+          margin-left: 5px;
+          border: none;
+     }
+}
+
+.notice_section_how_are_you{
+     width: 100%;
+     background: green;
+border-radius: 20px;
+     height: 7vh;
+     background: white;
+}
+
+.notice_section_how_are_you marquee{
+     
+     font-size: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     margin-top: 7px;
+}
+
+
+
+
+.second_page{
+  border-radius: 20px
+  ;
+     width: 98%;
+     margin-left: 10px;
+     margin-top: 10px;
+     overflow-x: hidden;
+height: 430vh;
+overflow: hidden;
+background: rgb(255, 240, 212);
+overflow-x: hidden;
+
+
+}
+
+@media only screen and (max-width: 600px){
+     .second_page{
+          margin-left: 5px;
+          overflow-x: hidden;
+          height: 1100vh;
+     }
+}
+
+
+.right_{
+
+     width: 73%;
+   height: auto;
+}
+
+@media only screen and (max-width: 600px){
+     .right_{
+          width: 100%;
+         overflow-x: hidden;
+     }
+}
+
+.notice_board{
+   width: 99%;
+   border-radius: 10px;
+     height: 65vh;
+     background: white;
+     box-shadow: 5px 3px 5px;
+}
+@media only screen and (max-width: 600px){
+     .notice_board{
+          width: 100%;
+          height: 60vh;
+     
+     }
+}
+.notice_board img{
+     width: 30%;
+}
+
+.notice_board h2{
+     text-align: center;
+     font-family: 'Nunito', sans-serif;
+     top: -70%;
+     position: relative;
+     letter-spacing: 10px;
+     text-decoration: underline;
+     
+}
+@media only screen and (max-width: 600px){
+     .notice_board h2{
+          top: -36%;
+          left: 10%;
+     }
+}
+
+.notice_link{
+ 
+     width:50%;
+    height: auto;
+     position: relative;
+     padding: 7px;
+     border-radius: 10px;
+     top: -60%;
+   
+     left: 35%;
+     margin-top: 20px;
+     margin-left: -20px;
+}
+
+@media only screen and (max-width: 600px){
+     .notice_link{
+          margin-top: 10px;
+          top: 0%;
+        
+          width: 80%;
+          left: 20%;
+     }
+}
+
+
+
+.notice_link a{
+     text-decoration: none;
+     color: black;
+     position: relative;
+  
+     width: 100%;
+     left: 20px;
+     font-size: 20px;
+}
+
+@media only screen and (max-width: 600px){
+     .notice_link a{
+          font-size: 18px;
+     }
+}
+
+.notice_link:hover{
+     background: rgba(205, 202, 202, 0.594);
+}
+.notice_link a i{
+     position: relative;
+     top: 2px;
+     margin-left: -20px;
+}
+@media only screen and (max-width: 600px){
+     .notice_link{
+          top: -20%;
+     }
+}
+
+.cornar{
+     border-radius: 10px;
+     width: 49.5%;
+     float: left;
+     margin-left: 3px;
+     position: relative;
+      background: white;
+     top:-180px;
+     margin-top: 5px;
+  box-shadow: 5px 3px 5px;
+     height: 40vh;
+}
+
+@media only screen and (max-width: 600px){
+     .cornar{
+          width: 100%;
+          margin-left: -2px;
+          position: relative;
+          top: 80px;
+          margin-top: 20px;
+          height: 30vh;
+     }
+}
+
+
+
+
+.cornar h1{
+     font-size: 20px;
+font-family: "Tiro Bangla",sans-serif;
+     text-align: center;
+     border-bottom: 2px solid white;
+     font-weight: 500;
+}
+
+.cornar img{
+     width: 50%;
+     position: relative;
+     top: 70px;
+     left: -15px;
+     opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px){
+     .cornar img{
+          top: 50px;
+     }
+}
+.cornar span img{
+     width: 35%;
+     position: relative;
+     top: 15px;
+     left: 13px;
+}
+
+.link{
+     /*  */
+     width: 60%;
+     margin-left: 160px;
+     margin-top: 15px;
+     position: relative;
+     padding: 5px;
+     top: -120px;
+     border-radius: 7px;
+}
+
+
+.link:hover{
+     background: rgba(205, 202, 202, 0.594);
+}
+.link a{
+     text-decoration: none;
+     
+     color: black;
+     font-size: 17px
+     ;
+}
+
+
+.link a i{
+     position: relative;
+     top: 3px;
+}
+
+
+.event{
+     border-radius: 10px;
+     width: 98.5%;
+     margin-left: 4.5px;
+     height: 80vh;
+     position: relative;
+     box-shadow: 5px 3px 5px;
+     margin-top: 90%;
+     background: white;
+}
+
+
+.event h2{
+     text-align: center;
+     position: relative;
+   top: -26%;
+   border-bottom: 2px solid black;
+   font-family: 'Nunito', sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+     .event h2{
+          top: -1%;
+     }
+}
+@media only screen and (max-width: 600px){
+     .event{
+          margin-top: 430%;
+       
+          height: 50vh;
+          
+     }
+}
+
+.event .img{
+  
+     width: 100%;
+     background-image: url(what/1.jpg);
+     height: 79%;
+     border-radius: 10px;
+     background-size: cover;
+ 
+     background-repeat: no-repeat;
+     background-position: center;
+     animation: event 10s ease-in-out infinite;
+     position: relative;
+     top: -25%;
+}
+
+.event a{
+     position: relative;
+     left: 47%;
+     top: -22%;
+     text-decoration: none;
+   
+     padding: 10px;
+     border-radius: 10px;
+     color: black;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+@media only screen and (max-width: 600px){
+     .event a{
+          top: 10px;
+     }
+}
+
+
+.event a:hover{
+     background: rgba(235, 229, 229, 0.781);
+}
+@media only screen and (max-width: 600px){
+     .event .img{
+          top: 0%;
+     }
+}
+
+@keyframes event{
+     0%{
+          background-image: url(what/1.jpg);
+     }
+     20%{
+          background-image: url(what/2.jpg);
+     }
+     40%{
+          background-image: url(what/3.jpg);
+     }
+     60%{
+          background-image: url(what/4.jpg);
+     }
+     80%{
+          background-image: url(what/5.jpg);
+     }
+     100%{
+          background-image: url(what/6.jpg);
+     }
+}
+
+
+.gallary{
+     border-radius: 10px;
+     width: 98.5%;
+     background: white;
+     height: 70vh;
+     margin-left: 4.5px;
+   margin-top: 30px;
+     box-shadow: 5px 3px 5px;
+}
+
+@media only screen and (max-width: 600px){
+     .gallary{
+          height: 160vh;
+          margin-top: 20px
+          ;
+     }
+}
+
+
+.vedio{
+     width: 98.5%;
+     margin-left: 4.5px;
+     height: 65vh;
+     margin-top: 50px;
+     border: none;
+     border-radius: 10px;
+     outline: none;
+     background: white;
+     box-shadow: 5px 3px 5px;
+
+}
+
+@media only screen and (max-width: 600px){
+     .vedio{
+          top: -30px;
+          position: relative;
+          height: 129vh;
+     }
+}
+.gallary h2{
+     text-align: center;
+     font-family: 'Nunito', sans-serif;
+     border-bottom: 2px solid black;
+
+}
+
+
+.vedio h2{
+     text-align: center;
+     font-family: 'Nunito', sans-serif;
+     border-bottom: 2px solid black;
+}
+
+
+.gallary .img{
+    
+     width: 32.5%;
+     margin-left: 5px;
+     left: 5px;
+     margin-top: 20px;
+     position: relative;
+     height: 70%;
+     float: left;
+}
+
+
+.vedio .video{
+     width: 32.5%;
+     margin-left: 5px;
+     left: 0px;
+     margin-top: 20px;
+  border: 1px solid black;
+     position: relative;
+     height: 70%;
+     float: left;
+}
+
+.vedio .video iframe{
+     width: 100%;
+     height: 100%;
+}
+@media only screen and (max-width: 600px){
+     .gallary .img{
+          width: 100%;
+          left: -3px;
+          height: 27%;
+         position: relative;
+       
+     }
+}
+
+
+
+@media only screen and (max-width: 600px){
+     .vedio .video{
+          width: 100%;
+          left: -3px;
+          height: 28%;
+     }
+}
+.gallary .img img{
+     width: 100%;
+     height: 100%;
+}
+
+.gallary a{
+     text-decoration: none;
+     color: black;
+     border-radius: 10px;
+     padding: 10px;
+    
+     position: relative;
+     font-size: 19px;
+     left: 45%;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     top: 30px;
+}
+.vedio a{
+     text-decoration: none;
+     color: black;
+     border-radius: 10px;
+     padding: 10px;
+    
+     position: relative;
+     font-size: 19px;
+     left: 45%;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     top: 25px;
+}
+@media only screen and (max-width: 600px){
+     .vedio a{
+          position: relative;
+          top: -5px;
+          left:34%
+
+
+     }
+}
+@media only screen and (max-width: 600px){
+     .gallary a{
+          left: 40%;
+     }
+}
+
+.gallary a:hover{
+     background: rgba(205, 202, 202, 0.594);
+}
+
+.vedio a:hover{
+     background: rgba(205, 202, 202, 0.594);
+}
+/* left section  */
+.left_right{
+   
+     width: 26.3%;
+     position:relative;
+     left: 73.5%;
+
+box-shadow: 5px 3px 5px;
+     top: -100.8%;
+     height: 120%;
+}
+
+@media only screen and (max-width: 600px){
+     .left_right{
+          top: 0%;
+          width: 126%;
+         margin-left: -95%;
+         height: 140vh
+     }
+}
+.left_right .head_tecjher{
+
+     width: 99%;
+     position: relative;
+  top: 0.7%;
+margin-left: -2px;
+     
+
+}
+.left_right .head_tecjher a{
+     text-decoration: none;
+     color: black;
+     position: relative;
+     left: 40%;
+   border-radius: 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     padding: 10px;
+     top: 20px;
+}
+.left_right .head_tecjher a:hover{
+     background: rgba(255, 255, 255, 0.845);
+}
+@media only screen and (max-width: 600px){
+     .left_right .head_tecjher{
+        margin-left: 35px;
+        top: 0.2%;
+     }
+}
+.left_right .head_tecjher h2{
+     text-align: center;
+ 
+     border-bottom: 2px solid black;
+     font-family: 'Nunito', sans-serif;
+     
+}
+.head_teacher_img{
+  
+     width: 80%;
+     margin: auto;
+     box-shadow: inset 4px 2px 4px rgba(255, 35, 35, 0.742);
+     height: 45vh;
+     margin-top: 10px;
+}
+@media only screen and (max-width: 600px){
+     .head_teacher_img{
+          width: 65%;
+     }
+}
+.head_teacher_img img{
+     width:100%;
+     height: 100%;
+box-shadow: inset 4px 2px 4px rgba(255, 35, 35, 0.742); 
+}
+.head_tecjher p{
+     text-align: center;
+ 
+     font-family: 'Nunito', sans-serif;
+}
+ 
+.teacher_details{
+     border: 1px solid black;
+     width: 60vw;
+     cursor: pointer;
+     position: absolute;
+     top: 20%;
+     opacity: 0;
+     background: red;
+     left: -210%;
+     height: 90vh;
+}
+.teacher_details.activeInfo{
+          opacity: 1;
+          z-index: 5;
+          pointer-events: auto;
+}
+.e_sheba{
+  
+     width: 99%;
+     position: relative;
+  top: 0.7%;
+  margin-top: 40px;
+margin-left: -2px;
+height: 40vh;
+}
+@media only screen and (max-width: 600px){
+     .e_sheba{
+       position: relative;
+       left: 100px;
+       
+          width: 70%;
+          height: 65vh;
+     }
+}
+.importand{
+      width: 99%;
+     position: relative;
+  top: 0.7%;
+  margin-top: 40px;
+margin-left: -2px;
+height: 40vh;
+
+margin-top: 230px;
+position: relative;
+}
+@media only screen and (max-width: 600px){
+     .importand{
+          position: relative;
+       left: 100px;
+       margin-top: 30px;
+       height: 70vh;
+          width: 70%; 
+          
+     }
+}
+
+
+.calender{
+     width: 95%;
+     position: relative;
+  top: 0.7%;
+  margin-top: 40px;
+margin: auto;
+height: 70vh;
+
+margin-top: 260px;
+position: relative;
+}  
+@media only screen and (max-width: 600px){
+     .calender{
+          width: 75%;
+          left: 30px;
+          position: relative;
+          top: -23%;
+     }
+}
+
+
+.calender iframe{
+     width: 100%;
+     height: 100%;
+}
+.e_sheba_link{
+     padding: 10px;
+     border-radius: 10px;
+    
+     margin-top: 30px;
+}
+
+.importand_link{
+      padding: 10px;
+     border-radius: 10px;
+    
+     margin-top: 30px;
+}
+
+.e_sheba_link:hover{
+     background: rgba(196, 195, 195, 0.705);
+}
+.importand_link:hover{
+      background: rgba(196, 195, 195, 0.705);
+}
+.e_sheba_link a{
+     text-decoration: none;
+     color: black;
+     font-size: 16px;
+     font-family: 'Nunito',sans-serif;
+     position: relative;
+     font-weight: bolder;
+     left: 22px;
+}
+.importand_link a{
+      text-decoration: none;
+     color: black;
+ 
+     font-size: 16px;
+     font-family: 'Nunito',sans-serif;
+     position: relative;
+     font-weight: bolder;
+     left: 22px;
+}
+@media only screen and (max-width: 600px){
+     .importand_link a{
+          width: 50%;
+      
+     }
+}
+.e_sheba_link a span{
+     position: relative;
+               left:23px
+}
+.importand_link a span{
+       position: relative;
+               left:23px
+}
+.e_sheba h2{
+     text-align: center;
+  font-family: 'Nunito', sans-serif;
+  border-bottom: 2px solid black;
+}
+.calender h2{
+     text-align: center;
+  font-family: 'Nunito', sans-serif;
+ 
+}
+/* @media only screen and (max-width: 600px){
+     .calender h2{
+        
+     }
+}
+.calender iframe{
+     width: 100%;
+     height: 100%;
+}
+@media only screen and (max-width: 600px){
+     .calender iframe{
+         
+     }
+} */
+
+.importand h2{
+      text-align: center;
+  font-family: 'Nunito', sans-serif;
+  border-bottom: 2px solid black;
+}
+.e_sheba_link a i{
+     position: relative;
+     left: -20px;
+     top: 2.5px;
+}
+.importand_link a i{
+     position: relative;
+     left: -20px;
+     top: 2.5px;
+}
+
+/* footer-section */
+
+
+
+.footer_page{
+     
+     width: 100%;
+     height: 100vh;
+
+}
+@media only screen and (max-width: 600px){
+     .footer_page{
+          height: 150vh;
+          margin-top: 10px;
+          overflow-x: hidden;
+     }
+}
+
+.footer{
+  background: black;
+     width: 98%;
+     margin-left: 10px;
+     height: 70vh;
+     margin-top: 10px;
+
+}
+.footer_p {
+     float: left;
+     width: fit-content;
+     position: relative;
+     top: -138%;
+     color: white;
+     margin-left:200px
+}
+
+@media only screen and (max-width: 600px){
+     .footer_p{
+          top: 1%;
+       width: 70%;
+       overflow-x: hidden;
+          left: -50%;
+   
+         
+     }
+}
+
+
+@media only screen and (max-width: 600px){
+     .footer{
+          margin-left: 5px;
+          margin-top: 150px;
+         height: 147vh;
+        
+     }
+}
+
+
+p{
+     text-align: center;
+     font-family: monospace;
+}
+.footer h1{
+     text-align: center;
+     border-bottom: 2px solid white;
+     letter-spacing: 20px;
+     color: white;
+       font-family: 'Nunito', sans-serif;font-family: 'Nunito', sans-serif;
+
+}
+
+
+.footer .footer_details{
+  
+     width: 35%;
+     height: 70%;
+     margin-top: 5px;
+     margin-left: 5px;
+     
+    
+   
+}
+
+
+.footer_h3{
+     color: white;
+     font-family: 'Nunito',sans-serif;
+     margin-top: 30px;
+     margin-left: 10px;
+     font-size: 15px;
+     position: relative;
+    
+     top: 50px;
+     cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+     .footer h3{
+          font-size: 16px;
+     }
+}
+@media only screen and (max-width: 600px){
+     .footer .footer_details{
+          width: 98%;
+          height: 28%;
+     }
+}
+
+.footer_map{
+  
+     width: 38%;
+     height: 70%;
+     display: flex;
+    left: 36%;
+  
+    top: -70%;
+    position: relative;
+}
+
+
+.footer_map iframe{
+     width: 100%;
+     height: 100%;
+}
+
+@media only screen and (max-width: 600px){
+     .footer_map{
+          width: 98%;
+          height: 30%;
+          left: 5px;
+          top: 5px;
+     }
+}
+
+
+.footer_social{
+
+     width: 25%;
+     height: 70%;
+     position: relative;
+     left: 74.5%;
+     top: -140.3%;
+}
+
+
+.footer_social .social_link{
+
+     padding: 7px;
+     width: 85%;
+     margin-top: 20px;
+     margin-left: 20px;
+     border-radius: 10px;
+}
+.footer_social .social_link:hover{
+     background: rgba(245, 240, 240, 0.368);
+}
+.footer_social .social_link a{
+     text-decoration: none;
+     position: relative;
+     color: white;
+     left: 20px;
+     font-size: 20px;
+     font-family: 'Nunito', sans-serif;font-family: 'Nunito', sans-serif;
+     
+}
+.footer_social .social_link a i{
+   
+     position: relative;
+     top: 2.5px;
+     left: -20px;
+     font-size: 25px;
+     
+}
+@media only screen and (max-width: 600px){
+     .footer_social{
+          width: 98%;
+          height: 28%;
+       
+          left: 5px;
+          top: 10px;
+     }
+}

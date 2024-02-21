@@ -1,0 +1,329 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Nunito', sans-serif;
+}
+
+
+body{
+     background: whitesmoke;
+}
+
+
+.exit2 .exit{
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+  
+     position: absolute;
+     left: -40%;
+     top: -30px;
+     border-radius: 10px;
+     
+     padding: 7px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.result .exit2 .exit:hover{
+     background: rgb(69, 29, 29);
+
+}
+
+
+
+
+.exit2 .exit i{
+     rotate: 180deg;
+     position: relative;
+     top: 2.3px;
+}
+
+
+.teacher{
+     width: 98%;
+     border: 1px solid black;
+     margin: auto;
+     height: 320vh;
+     background: white;
+     border: none;
+     border-radius: 10px;
+     margin-top: 5px;
+}
+
+
+@media only screen and (max-width: 600px){
+     .teacher{
+          width: 97%;
+          overflow-x: hidden;
+          margin-left: 6px;
+     }
+}
+.teacher h1{
+     text-align: center;
+     text-decoration: underline;
+     letter-spacing: 10px;
+}
+
+@media only screen and (max-width: 600px){
+     .teacher h1{
+          letter-spacing: 0px;
+          margin-top: 40px;
+     }
+}
+
+.teacher .p{
+     text-align: center;
+     text-decoration: underline;
+     letter-spacing: 10px;
+     margin-top: 20px;
+}
+@media only screen and (max-width: 600px){
+     .teacher .p{
+          letter-spacing: 0px;
+          border-bottom: 2px solid black;
+     }
+}
+.teacher .head_teacher{
+     width: 25%;
+     border: 1px solid black;
+     margin: auto;
+     margin-top: 40px;
+}
+@media only screen and (max-width: 600px){
+     .teacher .head_teacher{
+          width: 96%;
+          margin: auto;
+          margin-top: 30px
+          ;
+     }
+}
+
+.teacher .head_teacher_img{
+     width: 100%;
+     height: 55vh;
+     border: 1px solid black;
+}
+
+.teacher .head_teacher_img img{
+     width: 100%;
+     height: 100%;
+}
+
+
+
+h3{
+     text-align: center;
+     text-decoration: none;
+}
+
+p{
+     text-align: center;
+
+}
+a{
+     text-decoration: none;
+     color: black;
+     font-size: 17px;
+     margin-left: 42%;
+     margin-top: 50px;
+     position: relative;
+}
+
+a:hover{
+     color: blue;
+     text-decoration: underline;
+}
+
+.sub_teacher{
+     width: 25%;
+     border: 1px solid black;
+     margin-top: 30px;float: left;
+     margin-left: 30px;
+     position: relative;
+     left: 7.3%;
+}
+@media only screen and (max-width: 600px){
+     .sub_teacher{
+          width: 96%;
+          margin: auto;
+          margin-left: -23px;
+          margin-top: 40px;
+     }
+}
+
+.sub_teacher .sub_teacher_img{
+     height: 55vh;
+     width: 100%;
+     
+     border: 1px solid red;
+}
+
+
+.footer_page{
+     
+     width: 100%;
+     height: 100vh;
+
+}
+@media only screen and (max-width: 600px){
+     .footer_page{
+          height: 150vh;
+          margin-top: 10px;
+     }
+}
+
+.footer{
+  background: black;
+     width: 98%;
+     margin-left: 10px;
+     height: 70vh;
+     margin-top: 10px;
+
+}
+.footer_p {
+     float: left;
+     width: fit-content;
+     position: relative;
+     top: -135%;
+     color: white;
+     margin-left:200px
+}
+
+@media only screen and (max-width: 600px){
+     .footer_p{
+          top: 2%;
+       
+          left: -40%;
+          
+     }
+}
+
+
+@media only screen and (max-width: 600px){
+     .footer{
+          margin-left: 5px;
+          margin-top: 20px;
+         height: 120vh;
+        
+     }
+}
+
+
+p{
+     text-align: center;
+     font-family: monospace;
+}
+.footer h1{
+     text-align: center;
+     border-bottom: 2px solid white;
+     letter-spacing: 20px;
+     color: white;
+       font-family: 'Nunito', sans-serif;font-family: 'Nunito', sans-serif;
+
+}
+
+
+.footer .footer_details{
+  
+     width: 35%;
+     height: 70%;
+     margin-top: 5px;
+     margin-left: 5px;
+     
+    
+   
+}
+
+
+.footer_h3{
+     color: white;
+     font-family: 'Nunito',sans-serif;
+     margin-top: 30px;
+     margin-left: 10px;
+     font-size: 15px;
+     position: relative;
+     top: 50px;
+     cursor: pointer;
+}
+@media only screen and (max-width: 600px){
+     .footer .footer_details{
+          width: 98%;
+          height: 28%;
+     }
+}
+
+.footer_map{
+  
+     width: 38%;
+     height: 70%;
+     display: flex;
+    left: 36%;
+  
+    top: -70%;
+    position: relative;
+}
+
+
+.footer_map iframe{
+     width: 100%;
+     height: 100%;
+}
+
+@media only screen and (max-width: 600px){
+     .footer_map{
+          width: 98%;
+          height: 30%;
+          left: 5px;
+          top: 5px;
+     }
+}
+
+
+.footer_social{
+  border: 1px solid white;
+     width: 25%;
+     height: 70%;
+     position: relative;
+     left: 74.5%;
+     top: -140.3%;
+}
+
+
+.footer_social .social_link{
+
+     padding: 7px;
+     width: 85%;
+     margin-top: 20px;
+     margin-left: 20px;
+     border-radius: 10px;
+}
+.footer_social .social_link:hover{
+     background: rgba(245, 240, 240, 0.368);
+}
+.footer_social .social_link a{
+     text-decoration: none;
+     position: relative;
+     color: white;
+     left: 20px;
+     font-size: 20px;
+     font-family: 'Nunito', sans-serif;font-family: 'Nunito', sans-serif;
+     
+}
+.footer_social .social_link a i{
+   
+     position: relative;
+     top: 2.5px;
+     left: -20px;
+     font-size: 25px;
+     
+}
+@media only screen and (max-width: 600px){
+     .footer_social{
+          width: 98%;
+          height: 28%;
+       
+          left: 5px;
+          top: 10px;
+     }
+}
